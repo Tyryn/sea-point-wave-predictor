@@ -4,11 +4,12 @@ Shiny app that predicts whether my favorite surf spots around Sea Point will hav
 Inputs required:
 1. Swell size (x variable)
 2. Swell direction (x variable)
-3. Wind speed  (x variable)
-4. Wind direction (x variable)
-5. Tide (x variable)
-6. Whether surf spot was good or bad (y variable)
-7. Time at which data was collected on spot
+3. Swell period (x variable)
+4. Wind speed  (x variable)
+5. Wind direction (x variable)
+6. Tide (x variable)
+7. Whether surf spot was good or bad (y variable)
+8. Time at which data was collected on spot
 
 Analysis tool: logistic regression
 
