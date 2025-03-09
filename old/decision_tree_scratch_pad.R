@@ -4,7 +4,8 @@ library(rpart)
 library(rpart.plot)
 
 # Get the data from the mySQL databases
-mySQLdb <- dbConnect(MariaDB(), user="tyryn", password="lets_surf!", dbname="surf_forecast_db", host="surf-forecast-database.c8jiq4m8tj3s.us-east-1.rds.amazonaws.com")
+# Get user and password from cinfig file
+mySQLdb <- dbConnect(MariaDB(), user="", password="", dbname="surf_forecast_db", host="surf-forecast-database.c8jiq4m8tj3s.us-east-1.rds.amazonaws.com")
 dbListTables(mySQLdb)
 
 forecast_report_sollys <- dbReadTable(mySQLdb, "forecast_report_sollys")
